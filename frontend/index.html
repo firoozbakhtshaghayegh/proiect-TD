@@ -1,0 +1,21 @@
+<html>
+<head>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+    <div class="card" id="login-component">
+        <h3>Login</h3>
+        <input v-model="username" placeholder="Username" type="text"/>
+        <input v-model="password" placeholder="Password" type="password"/>
+        <button v-on:click="login()">Login</button>
+        {{status}}
+    </div>
+
+    <!-- External libraries -->
+    <script src="libs/axios.js"></script>
+    <script src="libs/vue.js"></script>
+    
+    <script src="control/login-component.js"></script>
+</body>
+</html>

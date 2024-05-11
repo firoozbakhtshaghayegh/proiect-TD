@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script type="text/javascript" src="../libs/vue.js"></script>
+        <script type="text/javascript" src="../libs/axios.js"></script>
+    </head>
+    <body>
+        <a href="dashboard.html">Home</a>
+        <div id="update">
+            Actualizare film cu id-ul: {{ id }} <br>
+            Name: <input type="text" v-model="movie.name">
+            Year: <input type="text" v-model="movie.year">
+            <button v-on:click="update(movie.id)">Save</button>
+
+            <p>{{message}}</p>
+
+        </div>
+
+        <script src="../control/update.js"></script>
+        
+    </body>
+</html>

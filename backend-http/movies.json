@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Lord Of The Rings",
+        "img": "movies/lotr.jpg",
+        "price": "15$",
+        "director": "Peter Jackson",
+        "year": 2001
+    },
+    {
+        "id": 2,
+        "name": "The Dark Knight",
+        "img": "movies/dark-knight.jpg",
+        "price": "10$",
+        "director": "Christopher Nolan",
+        "year": 2008
+    },
+    {
+        "id": 3,
+        "name": "The Shawshank Redemption",
+        "img": "movies/shawshank.jpg",
+        "price": "25$",
+        "director": "Frank Darabont",
+        "year": 1994
+    },
+    {
+        "id": 4,
+        "name": "The Good The Bad And The Ugly",
+        "img": "movies/the-good-the-bad-and-the-ugly.jpg",
+        "price": "10$",
+        "director": "Sergio Leone",
+        "year": 1966
+    },
+    {
+        "id": 5,
+        "name": "Interstellar",
+        "img": "movies/interstellar.jpg",
+        "price": "30$",
+        "director": "Christopher Nolan",
+        "year": 2014
+    },
+    {
+        "id": 6,
+        "name": "3 Idiots",
+        "img": "movies/3-idiots.jpg",
+        "price": "15$",
+        "director": "Rajkumar Hirani",
+        "year": 2009
+    }
+]
