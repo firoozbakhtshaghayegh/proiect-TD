@@ -1,50 +1,149 @@
 [
     {
         "id": 1,
-        "name": "Lord Of The Rings",
-        "img": "movies/lotr.jpg",
+        "name": "The Garfield Movie",
+        "title":"Garfield, the world-famous, Monday-hating, lasagna-loving indoor cat, is about to have a wild outdoor adventure! After an unexpected reunion with his long-lost father – scruffy street cat Vic – Garfield and his canine friend Odie are forced from their perfectly pampered life into joining Vic in a hilarious, high-stakes heist.",
+        "views":"300 views",
+        "time":"2h 49m",
+        "img": "movies/garfield.jpg",
         "price": "15$",
-        "director": "Peter Jackson",
-        "year": 2001
+        "genre": "comedy",
+        "type":"movie",
+        "year": 2024
     },
     {
         "id": 2,
         "name": "The Dark Knight",
+        "title":"Eight years after the Joker's reign of chaos, Batman is coerced out of exile with the assistance of the mysterious Selina Kyle in order to defend Gotham City from the vicious guerrilla terrorist Bane.",
+        "views":"350 views",
+        "time":"2h 49m",
         "img": "movies/dark-knight.jpg",
         "price": "10$",
-        "director": "Christopher Nolan",
+        "genre": "drama",
+        "type":"movie",
         "year": 2008
     },
     {
         "id": 3,
-        "name": "The Shawshank Redemption",
-        "img": "movies/shawshank.jpg",
+        "name": "The Impossible Heir",
+        "title":"When the illegitimate son of a Korean conglomerate owner partners with his ambitious childhood friend, the duo will stop at nothing to seize their place at the top of the societal food chain. Born into an impoverished single-parent household with nothing but his good looks and charm, Kang In Ha is ravenous for success. Determined to make something of himself, no matter the cost, In Ha, discovers that his father is the chairman of the hugely successful Kang Oh Group and leaves his life of poverty behind. Shunned by the rest of his new family, ",
+        "views":"2140 views",
+        "time":"2h 49m",
+        "img": "movies/heir.jpg",
         "price": "25$",
-        "director": "Frank Darabont",
-        "year": 1994
+        "genre": "drama",
+        "type":"movie",
+        "year": 2024
     },
     {
         "id": 4,
-        "name": "The Good The Bad And The Ugly",
-        "img": "movies/the-good-the-bad-and-the-ugly.jpg",
+        "name": "Under the Gun",
+        "title":"When the honor of his family is tarnished, Go Gun is faced with a difficult decision. The son of a professional poker player, Gun knows just how damaging the profession can be, yet joining the Korean Poker League may be the only way to save his family. Encouraged by transfer student Cha Se Young, Gun finds the strength to put his fears aside and tackle his problems head-on. With Se Young by his side, will his skill and determination ultimately bring him victory?",
+        "views":"1000 views",
+        "time":"2h 49m",
+        "img": "movies/underthegun.jpg",
         "price": "10$",
-        "director": "Sergio Leone",
-        "year": 1966
+        "genre": "Drama",
+        "duration":"102 min",
+        "type":"movie",
+        "year": 2024
     },
     {
         "id": 5,
         "name": "Interstellar",
+        "title":"În contextul în care existența omenirii pe Pământ este amenințată, un grup de exploratori se folosesc de o gaură de vierme nou descoperită pentru adepăși limitele spațiului și a cuceri imensele distanțe ale unei călătorii interstelare.",
         "img": "movies/interstellar.jpg",
+        "views":"257 views",
         "price": "30$",
-        "director": "Christopher Nolan",
+        "genre": "Drama,Action",
+        "duration":"102 min",
+        "type":"movie",
         "year": 2014
     },
     {
         "id": 6,
-        "name": "3 Idiots",
-        "img": "movies/3-idiots.jpg",
-        "price": "15$",
-        "director": "Rajkumar Hirani",
+        "name": "A Good Day to be a Dog",
+        "title":"Hae-na who is bound to inherit her family curse which is turning into a dog after getting her first kiss. The only way to break the curse is to get a second kiss. The problem is the guy who gave Hae-na her first kiss is afraid of dogs.",
+        "img": "movies/dog.jpg",
+        "views":"257 views",
+        "price": "25$",
+        "genre": "Comedy, Drama",
+        "duration":"102 min",
+        "type":"movie",
         "year": 2009
+    },
+
+    {
+        "id": 7,
+        "name": "John Wick: Chapter 4",
+        "img": "movies/john-wick.jpg",
+        "title":"",
+        "price": "15$",
+        "genre": "Action",
+        "type":"movie",
+        "duration":"102 min",
+        "year": 2023
+    },
+
+    {
+        "id": 8,
+        "name": "Alienoid",
+        "img": "movies/alienoid.jpg",
+        "title":"The door of time opens between the swordsman who wants to seize the legendary divine sword at the end of the Goryeo Dynasty and those who chase after an alien prisoner imprisoned in a human body in 2022",
+        "price": "15$",
+        "genre": "Drama",
+        "duration":"102 min",
+        "type":"movie",
+        "year": 2022
+    },
+
+    {
+        "id": 9,
+        "name": "Split",
+        "title":"Though Kevin has evidenced 23 personalities to his trusted psychiatrist, Dr. Fletcher, there remains one still submerged who is set to materialize and dominate all the others. Compelled to abduct three teenage girls led by the willful, observant Casey, Kevin reaches a war for survival among all of those contained within him — as well as everyone around him — as the walls between his compartments shatter apart.",
+        "views":"2140 views",
+        "img": "movies/split.jpg",
+        "price": "15$",
+        "genre": "Horror, Thriller",
+        "duration":"102 min",
+        "type":"movie",
+        "year": 2017
+
+    },
+    {
+        "id": 10,
+        "name": "Slyth: The Hunt Saga",
+        "title":"After a deadly forest fire sweeps the earth and fills the air with pollutants, society is on the brink of collapse and riddled with disease. The only hope seems to be in a legend come to life: that of the Slyth, a reptilian species that can disguise themselves as humans and possesses blood that can cure disease. The hunt is on",
+        "views":"2140 views",
+        "img": "movies/slyth.jpg",
+        "price": "15$",
+        "genre": "Drama",
+        "duration":"102 min",
+        "type":"movie",
+        "year": 2023
+    },
+    {
+        "id": 11,
+        "name": "City Hunter",
+        "title":"An exceptional marksman and hopeless playboy, private eye Ryo Saeba reluctantly forms an alliance with his late partner's sister to investigate his death.",
+        "views":"1140 views",
+        "img": "movies/cityhunter.jpg",
+        "price": "15$",
+        "duration":"102 min",
+        "genre": "Action, Comedy, Drama",
+        "type":"movie",
+        "year": 2024
+    }, {
+        "id": 12,
+        "name": "WALL·E",
+        "title":"WALL·E is the last robot left on an Earth that has been overrun with garbage and all humans have fled to outer space. For 700 years he has continued to try and clean up the mess, but has developed some rather interesting human-like qualities. When a ship arrives with a sleek new type of robot, WALL·E thinks he's finally found a friend and stows away on the ship when it leaves.",
+        "views":"1140 views",
+        "img": "movies/walle.jpg",
+        "price": "15$",
+        "duration":"98 min",
+        "genre": "Animation, Family, Science Fiction",
+        "type":"movie",
+        "year": 2008
     }
+
 ]

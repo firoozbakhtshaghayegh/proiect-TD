@@ -17,29 +17,29 @@ new Vue(
                 });
             },
 
-            deleteMovie: function(id) {
-                try {
-                    axios.delete(`${this.httpBackendUrl}/movies/${id}`).then(response =>{
-                    this.getMovies()
-                    })
-                    console.log('YES');
-                } catch (error) {
-                    console.error('Error deleting movie:', error);
-                }
-            },
-            // sortMovies: function(criteria) {
-            //     switch(criteria) {
-            //         case 'id':
-            //             this.movies.sort((a, b) => a.name.localeCompare(b.name));
-            //             break;
-            //         case 'price':
-            //             this.movies.sort((a, b) => b.id - a.id);
-            //             break;
-            //         // Poți adăuga și alte criterii de sortare aici
-            //         default:
-            //             console.error('Invalid sorting criteria');
+            // deleteMovie: function(id) {
+            //     try {
+            //         axios.delete(`${this.httpBackendUrl}/movies/${id}`).then(response =>{
+            //         this.getMovies()
+            //         })
+            //         console.log('YES');
+            //     } catch (error) {
+            //         console.error('Error deleting movie:', error);
             //     }
-            // }
+            // },
+            sortMovies: function(criteria) {
+                switch(criteria) {
+                    case 'id':
+                        this.movies.sort((a, b) => a.name.localeCompare(b.name));
+                        break;
+                    case 'price':
+                        this.movies.sort((a, b) => b.id - a.id);
+                        break;
+                    // Poți adăuga și alte criterii de sortare aici
+                    default:
+                        console.error('Invalid sorting criteria');
+                }
+            }
         },
     }
 );

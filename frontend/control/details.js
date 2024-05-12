@@ -20,7 +20,25 @@ function run() {
       );
     },
     methods: {
+      getMovies: function(){
+        axios.get(`${this.httpBackendUrl}/movies`).then(response => { 
+            this.movies = response.data;
+        });
+    },
 
+    deleteMovie: function(id) {
+        try {
+            axios.delete(`${this.httpBackendUrl}/movies/${id}`).then(response =>{
+            this.getMovies()
+            })
+            console.log('YES');
+        } catch (error) {
+            console.error('Error deleting movie:', error);
+        }
+    },
+    removeEntry:function(index) {
+      this.$delete(this.items.movies, index);
+  },
     }
   });
 }

@@ -8,29 +8,26 @@
 
     <div class="card" id="movies-component">
         <h3>HTTP movies API</h3>
-        <!-- <div class="sort-movies">
-            <button @click="sortMovies('id')">Sort by Title</button>
-
-            <button @click="sortMovies('name')">Sort by Rating</button> -->
-
-        <div class="movies-wrapper">
-            <div class="movie" v-for="movie of movies">
-                <!-- <div class="details">
-                    <a :href="'details.html?id='+ movie.id">{{ movie.name }}</a>
-                </div> -->
-                <a :href="'details.html?id='+ movie.id">
-                    <img v-bind:src="`${resourcesApi}/${movie.img}`" /></a>
-
-                <div class="button">
-                    <button @click="getMovies(movie.id)">Add</button>
-                    <button @click="deleteMovie(movie.id)">Delete</button>
-                    <a :href="'update.html?id='+ movie.id" target="_self">Update</a>
-
+        <div class="sort-movies">
+            <button class="sort-btn" @click="sortMovies('id')">Sort by Title</button>
+            <div class="movies-wrapper">
+                <div class="movie" v-for="movie of movies">
+                    <a :href="'details.html?id='+ movie.id">
+                        <img v-bind:src="`${resourcesApi}/${movie.img}`" /></a>
+                        <div class="details">
+                            <a :href="'details.html?id='+ movie.id">{{ movie.name }}</a>
+                            <span>{{movie.year}}</span>
+                            <span class="type">{{movie.type}}</span>
+                        </div>
+                    <!-- <div class="button">
+                        <button @click="getMovies(movie.id)">Add</button>
+                        <button @click="deleteMovie(movie.id)">Delete</button>
+                        <a :href="'update.html?id='+ movie.id" target="_self">Update</a>
+                    </div> -->
                 </div>
             </div>
         </div>
     </div>
-    <!-- </div> -->
 
     <div class="card chat" id="chat-component">
         <h3>WS API (Socket id: {{ socketId }})</h3>

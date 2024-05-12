@@ -11,18 +11,26 @@
     <a href="dashboard.html">Home</a>
     <div id="details">
         <h1>Detalii pentru filmul cu id-ul: {{ id }}</h1>
+        
         <div class="container">
             <div class="image"><img v-if="movie.img" v-bind:src="`${resourcesApi}/${movie.img}`" /></div>
             <div class="values">
-                <div class="label">Name:</div>
-                <div class="value">{{ movie.name }}</div>
+                <h1>{{movie.name}}</h1>
+                <span>{{movie.views}}</span>
+                <p>{{ movie.title }}</p>
                 <div class="label">Price:</div>
                 <div class="value">{{ movie.price }}</div>
                 <div class="label">Year:</div>
                 <div class="value">{{ movie.year }}</div>
             </div>
         </div>
+            <div class="button">
+                <button id="blue" @click="getMovies(movie.id)">Add</button>
+                <button id="red" @click="deleteMovie(movie.id)">Delete</button>
+                <a :href="'update.html?id='+ movie.id" target="_self">Update</a>
+            </div>
     </div>
+    
     <script src="../control/details.js"></script>
     <script src="../libs/rxjs.js"></script>
 </body>

@@ -45,8 +45,6 @@ function getMovie (id){
   return movie
 }
 
-
-
 function getMovies() {
   let cars = [];
   try {
