@@ -1,12 +1,18 @@
 body{
     background: #333;
     color: #fff;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
 }
 
 a {
     color: #fff;
+    text-decoration: none;
 }
 
+a:hover {
+    color: rgb(0, 179, 255);
+}
 
 
 .container {
@@ -80,4 +86,12 @@ p {
     box-shadow: 0 0 0.5rem rgb(0, 179, 255); 
     
 }
+
+@media screen and (min-width: 200px) and (max-width: 900px) {
+    .image img,.button, button .button {
+        display: none;
+    }
+}
+
+
 

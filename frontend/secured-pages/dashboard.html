@@ -1,6 +1,9 @@
 <html>
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/style.css">
 </head>
 
@@ -10,15 +13,16 @@
         <h3>HTTP movies API</h3>
         <div class="sort-movies">
             <button class="sort-btn" @click="sortMovies('id')">Sort by Title</button>
+            <button class="sort-btn" @click="getMovies(movie.id)">Add</button>
             <div class="movies-wrapper">
                 <div class="movie" v-for="movie of movies">
                     <a :href="'details.html?id='+ movie.id">
                         <img v-bind:src="`${resourcesApi}/${movie.img}`" /></a>
-                        <div class="details">
-                            <a :href="'details.html?id='+ movie.id">{{ movie.name }}</a>
-                            <span>{{movie.year}}</span>
-                            <span class="type">{{movie.type}}</span>
-                        </div>
+                    <div class="details">
+                        <a :href="'details.html?id='+ movie.id">{{ movie.name }}</a>
+                        <span>{{movie.year}}</span>
+                        <span class="type">{{movie.type}}</span>
+                    </div>
                     <!-- <div class="button">
                         <button @click="getMovies(movie.id)">Add</button>
                         <button @click="deleteMovie(movie.id)">Delete</button>

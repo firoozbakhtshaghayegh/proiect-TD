@@ -144,6 +144,18 @@
         "genre": "Animation, Family, Science Fiction",
         "type":"movie",
         "year": 2008
+    },
+    {
+        "id": 13,
+        "name": "The Moon and Back",
+        "title":"One year after her father's death, a high school senior discovers the epic screenplay for a terrible space opera — written by her dad. Equipped with just a VHS camera and pocket change, she decides to honor her late father and make this script a reality.",
+        "views":"140 views",
+        "img": "movies/themoonandback.jpg",
+        "price": "15$",
+        "duration":"98 min",
+        "genre": "Comedy",
+        "type":"movie",
+        "year": 2022
     }
 
 ]

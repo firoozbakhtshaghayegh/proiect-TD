@@ -1,21 +1,34 @@
 body {
     padding:0;
     margin:0;
-    background-image: url(../img/cover.jpg);
+    font-family: "Quicksand", sans-serif;
+    font-size: 0.80em;
+    /* font-optical-sizing: auto; */
+    background-color: #333;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
 }
 
+
 .chat {
-    border-top:2px solid rgb(0, 179, 255);
-    background: #edfbff;
+    border-top:2px solid rgb(112, 115, 117);
+    background: #595d5e;
 }
 
 .card h3 {
     margin-left:24px;
 }
+
+.card button {
+    padding: 3px 20px;
+    margin-left: 4px;
+    background: #000;
+    color: #fff;
+    border: none;
+}
+
 
 
 .movies-wrapper {
@@ -29,6 +42,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     justify-content: center;
     align-items: center;
+    margin-bottom: 42px;
 }
 
 /* .button {

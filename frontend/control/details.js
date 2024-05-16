@@ -20,11 +20,6 @@ function run() {
       );
     },
     methods: {
-      getMovies: function(){
-        axios.get(`${this.httpBackendUrl}/movies`).then(response => { 
-            this.movies = response.data;
-        });
-    },
 
     deleteMovie: function(id) {
         try {
